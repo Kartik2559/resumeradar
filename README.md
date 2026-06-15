@@ -394,13 +394,3 @@ Monitor the distribution of incoming resume embeddings over time using Evidently
 
 **Edge deployment for privacy**  
 For enterprises with strict data privacy requirements (resumes contain personal data), package a quantized version of the embedding model (INT8, ~45MB) using ONNX Runtime. Run entirely in the browser via WebAssembly or on-device via a local Python process. Resume data never leaves the user's machine.
-
----
-
-## Resume bullet (for your portfolio)
-
-> "Built ResumeRadar, a semantic resume-JD matching system using Sentence-BERT (all-MiniLM-L6-v2) and cosine similarity. Features multi-resume upload with PDF preview, skill gap analysis, and ranked candidate summary. Production-grade architecture with centralised logging, singleton model caching, two-layer error handling, and session state management. Deployed on HuggingFace Spaces."
-
----
-
-*Built during Week 2 of an 8-week AI Engineer placement sprint — understanding every line, writing everything from scratch.*
