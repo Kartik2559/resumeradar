@@ -152,7 +152,7 @@ Opens at `http://localhost:8501`
 
 ## Q&A — everything learned building this
 
-Every concept below was learned by building this project from scratch, line by line, with no copy-paste.
+Every concept below was learned by building this project from scratch, line by line.
 
 ---
 
