@@ -162,7 +162,7 @@ Opens at `http://localhost:8501`
 
 ## Q&A — everything learned building this
 
-Every concept below was learned by building this project from scratch, line by line, with no copy-paste.
+Every concept below was learned by building this project from scratch, line by line.
 
 ---
 
@@ -404,6 +404,7 @@ Monitor the distribution of incoming resume embeddings over time using Evidently
 
 **Edge deployment for privacy**  
 For enterprises with strict data privacy requirements (resumes contain personal data), package a quantized version of the embedding model (INT8, ~45MB) using ONNX Runtime. Run entirely in the browser via WebAssembly or on-device via a local Python process. Resume data never leaves the user's machine.
+<<<<<<< HEAD
 
 ---
 
@@ -436,3 +437,5 @@ Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :hear
 If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
 forums](https://discuss.streamlit.io).
 >>>>>>> 6193574c982ddf5ba9f86d9c7b22a9725c0c7dc5
+=======
+>>>>>>> af2e0e060ac2a4b55837ea0e90c5f38054df111c
