@@ -55,7 +55,7 @@ with col_left:
                         preview_bytes = get_pdf_preview(pdf_bytes)
                         st.session_state.previews[name] = preview_bytes
 
-                        with tempfile.NamedTemporaryFile(suffix = ".pdf", delete = False) as temp:
+                        with tempfile.NamedTemporaryFile(suffix = ".pdf", delete = False, dir="/tmp" ) as temp:
                             temp.write(pdf_bytes)
                             temp_path = Path(temp.name)
 

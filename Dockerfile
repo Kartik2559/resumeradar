@@ -9,6 +9,9 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 RUN useradd -m -u 1000 user
+
+RUN chown -R user:user /app /tmp
+
 USER user
 ENV PATH="/home/user/.local/bin:$PATH"
 
