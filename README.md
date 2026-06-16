@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ResumeRadar 📄
 
 > Semantic resume-JD matching powered by Sentence-BERT — upload resumes, paste a job description, get instant match scores, skill gap analysis, and a ranked summary of all candidates.
@@ -404,3 +405,25 @@ For enterprises with strict data privacy requirements (resumes contain personal 
 ---
 
 *Built during Week 2 of an 8-week AI Engineer placement sprint — understanding every line, writing everything from scratch.*
+=======
+---
+title: Resumeradar
+emoji: 🚀
+colorFrom: red
+colorTo: red
+sdk: docker
+app_port: 8501
+tags:
+- streamlit
+pinned: false
+short_description: Resume and JD scoring for HR or Personal use
+license: mit
+---
+
+# Welcome to Streamlit!
+
+Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
+
+If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
+forums](https://discuss.streamlit.io).
+>>>>>>> 6193574c982ddf5ba9f86d9c7b22a9725c0c7dc5
